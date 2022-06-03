@@ -1,0 +1,159 @@
+/* TABLE DES CONTENUS  */
+/*                     */
+/* 1 - GLOBAL          */
+/* 2 - HEADER          */
+/* 3 - MAIN INDEX      */
+/* 4 - ARTICLES        */
+/* 5 - MAIN FORMULAIRE */
+/* 6 - FOOTER          */
+
+/* 1 - GLOBAL*/
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #F6F6F6;
+    font-family: sans-serif;
+}    
+
+h1, h2, h3, h4, h5, h6{
+    text-transform: uppercase;
+}
+
+h1, h2{
+    text-align: center;
+    margin: 50px auto;
+}
+
+h1{
+    color: #359E7B;   
+}
+
+/* 2 - HEADER */
+/* NAVBAR */
+header nav{
+    background-color: #359E7B;
+}
+
+header nav ul{
+    max-width: 1150px;
+    margin: auto;
+    padding: 15px;
+    text-align: right;
+}
+
+header nav li,
+header nav a{
+    display: inline-block;
+}
+
+header nav a{
+    color: #F6F6F6;
+    padding: 15px;
+}
+
+header p{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+/* 3 - MAIN INDEX */
+main{
+    max-width: 1150px;
+    margin: auto;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+h2, h3{
+    color: #006083;
+}
+
+h3{
+    margin-bottom: 20px;
+}
+
+/* 4 - ARTICLES */
+p.dateTime{
+    color: gray;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+article{
+    margin-bottom: 40px;
+}
+
+article a{
+    width: fit-content;
+    margin-left: auto;
+    color: #359E7B;
+}
+
+article a, .moreAndMore{
+    display: block;
+}
+
+.moreAndMore{
+    background-color: #359E7B;
+    max-width: 250px;
+    color: #FFFFFF;
+    padding: 15px;
+    margin: 40px auto 0 auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* 5 - MAIN FORMULAIRE */
+form{
+    max-width: 700px;
+    margin: auto;
+}
+
+form input, form textarea{
+    font-size: 25px;
+    border: none;
+    border-bottom: solid 2px #359E7B; 
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+form textarea{
+    resize: none;
+    height: 300px;
+    border: 2px solid #359E7B;
+}
+
+input.envoi{
+    background-color: #359E7B;
+    color: #FFFFFF;
+    border: none;
+    width: 100%;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/* 6 - FOOTER */
+footer{
+    background-color: darkgray;
+    padding: 15px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer a{
+    color: #FFFFFF;
+}
+
+footer a:visited{
+    color: #FFFFFF;
+}
+
+
+
