@@ -85,6 +85,8 @@ p.dateTime{
 
 article{
     margin-bottom: 40px;
+    max-width: 1150px;
+    margin: auto;
 }
 
 article a{
@@ -105,6 +107,11 @@ article a, .moreAndMore{
     margin: 40px auto 0 auto;
     border-radius: 5px;
     text-align: center;
+}
+
+.enSavoirPlus{
+    text-align: right;
+    margin-bottom: 50px;
 }
 
 /* 5 - MAIN FORMULAIRE */

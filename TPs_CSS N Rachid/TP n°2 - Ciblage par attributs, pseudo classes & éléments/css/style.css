@@ -37,15 +37,18 @@ h1{
 nav ul{
     max-width: 1150px;
     margin: auto;
-    display: flex;
+    display: block;
     justify-content: center;
     padding-left: 0;
+    font-size: 0;
 }
 
 nav ul li{
-    display: inline-flex;
+    display: inline-block;
     width: 25%;
     text-align: center;
+    max-width: 1150px;
+    font-size: 1rem;
 }
 
 nav a img{
@@ -104,6 +107,7 @@ h2{
     position: relative;
     text-align: center;
     margin: 80px auto 40px auto;
+    max-width: 1150px;
 }
 
 h2:before, h2:after{
@@ -125,6 +129,11 @@ h2::after{
 
 main .intro{
     margin-top: 20px;
+}
+
+main div, main p{
+    max-width: 1150px;
+    margin: auto;
 }
 
 main img{
@@ -182,6 +191,11 @@ article a{
 
 article p:last-of-type a{
     font-weight: bolder;
+}
+
+article, .autresArticles{
+    max-width: 1150px;
+    margin: auto;
 }
 
 a:hover{

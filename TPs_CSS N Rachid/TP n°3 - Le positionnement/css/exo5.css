@@ -1,0 +1,140 @@
+/* TABLE DES STYLES */
+/*                  */
+/* GLOBALS          */
+/* HEADER & NAV     */
+/* MAIN             */
+/*                  */
+/*                  */
+
+/* Global */
+*{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    max-width: 1150px;
+    margin: auto;
+}
+
+header nav{
+    margin-bottom: 80px;
+    max-width: 1150px;
+    margin: 0 auto;
+    height: 50px;
+    display: block;
+    align-items: center;
+    padding: 20px 0;  
+}
+
+header nav ul{
+    text-align: right;
+    border: solid 2px coral;
+    height: 50px;
+    width: fit-content;
+    float: right;
+    display: flex;
+}
+
+header nav img{
+    width: fit-content;
+    float: left;
+    width: 50px;
+    height: 50px;
+    text-align: left;
+    border: solid 2px white;
+    color: coral;
+    background-color: coral;
+}
+
+header nav li{
+    padding: 15px 30px;
+}
+
+a{
+    color: coral;
+}
+
+header li:last-of-type a{
+    background-color: coral;
+    color: black;
+}
+
+h1{
+    margin: 60px auto 40px;
+    text-align: center;
+}
+
+h1, h2{
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: bold;
+}
+
+
+
+.illustration-floatRight img{
+    height: 200px;
+    float: right;
+    border-radius: 10px;
+}
+
+main img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
+
+div figure{
+    display: inline-block;
+    text-align: center;
+    margin: 8px;
+}
+
+div figure img{
+    width: 230px;
+    height: 230px;
+}
+
+div figure figcaption{
+    background-color: coral;
+    color: black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+div figcaption a{
+    background-color: coral;
+    color: black;
+    
+}
+
+.inline-blocks-container{
+    margin: auto;
+    text-align: center;
+}
+
+.inline-scnd img{
+    border-radius: 10px;
+}
+
+div:nth-of-type(5){
+    float: right;
+}
+
+div:last-of-type{
+    float: left;
+}
+
+footer{
+    text-align: center;
+}
+
